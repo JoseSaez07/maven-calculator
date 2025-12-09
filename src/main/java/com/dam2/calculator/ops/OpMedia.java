@@ -10,7 +10,7 @@ public class OpMedia {
 			return "Error: formato inválido";
 		if (nums.length < 2)
 			return "Error: mete al menos 2 números";
-		int suma = 0;
+		float suma = 0;
 		float res = 0;
 		for (int i = 0; i < nums.length; i++) {
 			suma += nums[i];
